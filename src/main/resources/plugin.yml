@@ -1,0 +1,9 @@
+name: SlashDelay
+version: ${project.version}
+main: com.example.slashdelay.SlashDelay
+api-version: "1.20"
+description: Hides command suggestions on a bare "/" until a letter is typed.
+permissions:
+  slashdelay.bypass:
+    description: Players with this keep normal vanilla suggestions
+    default: false
